@@ -1,0 +1,103 @@
+.main-slider{
+    .left-part{
+        background-color: #E2F0EF;
+        padding: 55px 63px;
+        .title{
+            font-weight: bold;
+            font-size: 38px;
+            line-height: 49px;
+            text-transform: uppercase;
+        }
+        ul{
+            padding-left: 16px;
+            margin-top: 16px;
+        }
+        li {
+            color: rgba(31, 161, 129, 1);
+            .text{
+                color: rgba(54, 72, 68, 1);
+                font-size: 16px;
+                line-height: 21px;
+            }
+        }
+        .price{
+            margin-top: 33px;
+            font-size: 20px;
+            line-height: 26px;
+            span{
+                font-size: 16px;
+                line-height: 24px;
+                text-decoration-line: line-through;
+                color: #868686;
+                margin-left: 16px;
+            }
+        }
+    }
+    .right-part{
+        padding: 0;
+        position: relative;
+        max-width: 100%;
+        .triangle-block{
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 100%;
+            border: 100px solid transparent;
+            border-bottom: 400px solid #E2F0EF;
+            border-left: 22px solid #E2F0EF;
+        }
+        img{
+            max-width: 100%;
+        }
+    }
+    .slider-wrapper{
+        //margin: 0 auto;
+        width: 100%;
+    }
+    .slider-buttons{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+    .slider-container{
+        overflow: hidden;
+        width: 100%;
+    }
+    .slider-track{
+        display: flex;
+        transition: .2s;
+    }
+    .slider-item{
+        height: 100%;
+        .row{
+            margin: 0 !important;
+            padding: 0 !important;
+        }
+    }
+}
+.slider-buttons{
+    margin-top: 32px;
+    .btn-prev,.btn-next{
+        width: 30px;
+        height: 14px;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        padding: 0px !important;
+        border:none;
+        margin: 0px 36px;
+        background-color: white;
+    }
+    .btn-prev[disabled],.btn-next[disabled] {
+        img{
+            opacity: 0.3;
+        }
+    }
+    .slider-number{
+        font-size: 20px;
+        line-height: 23px;
+        span{
+            opacity: 0.3;
+        }
+    }
+}
