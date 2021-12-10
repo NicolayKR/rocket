@@ -32,6 +32,9 @@
     .order-new-last{
         order: 1 !important;
     }
+    .header-menu{
+        background-color:rgba(69, 146, 127, 0.9) !important;
+    }
     .btn-mobile{
         color: rgba(69, 146, 127, 0.9);
         margin-top: 40px;
@@ -61,7 +64,6 @@
         -webkit-transition: 0.7s all;
         transition: 0.7s all;
         z-index: 1;
-        opacity: 0.9;
         overflow-y: hidden;
     }
     .header-menu{
