@@ -7,7 +7,7 @@ $fio = htmlspecialchars($fio);
 $email = htmlspecialchars($phone);
 $email = htmlspecialchars($email);
 
-$to = "n.kryuchkov@enterprise-it.ru";
+$to = "rbru-metrika@yandex.ru";
 $message = '
 <html>
 <body>
